@@ -1,0 +1,10 @@
+FROM php:8.1-apache
+
+# Installer les extensions PHP nécessaires
+RUN docker-php-ext-install pdo pdo_mysql
+
+# Copier le code de votre backend dans le conteneur
+COPY ./backend /var/www/html
+
+# Exposer le port 80
+EXPOSE 80

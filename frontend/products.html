@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produits</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1>Liste des Produits</h1>
+    <ul id="product-list"></ul>
+    <a href="add_product.html">Ajouter un produit</a>
+    <script>
+        fetch("http://localhost:8081/get_products.php")
+            .then(response => response.json())
+            .then(data => {
+                const productList = document.getElementById("product-list");
+                data.forEach(product => {
+                    const li = document.createElement("li");
+                    li.textContent = `${product.nom} - ${product.prix} €`;
+                    productList.appendChild(li);
+                });
+            })
+            .catch(error => console.error("Erreur:", error));
+    </script>
+</body>
+
+</html>
