@@ -87,21 +87,8 @@ Ce projet implémente une architecture microservices comprenant :
 3. **Monitoring** :
    - Visualisez les performances et métriques des conteneurs Docker.
 
-## Débogage
-- **Vérifier les logs des conteneurs** :
-  ```bash
-  docker logs <container_name>
-  ```
-- **Vérifier la configuration réseau** :
-  ```bash
-  docker network inspect app-network
-  ```
+
 
 ![image](https://github.com/user-attachments/assets/d32a9c70-8aa6-495e-87cd-905219420169)
 
-   git push origin feature/ma-modification
-   ```
-5. Créez une Pull Request.
 
-## Licence
-Ce projet est sous licence [MIT](LICENSE).
