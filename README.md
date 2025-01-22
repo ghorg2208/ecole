@@ -87,6 +87,7 @@ Ce projet implémente une architecture microservices comprenant :
 3. **Monitoring** :
    - Visualisez les performances et métriques des conteneurs Docker.
 
+![image](https://github.com/user-attachments/assets/e12eb5ee-e97b-4158-86ce-99d9d1075324)
 
 
 ![image](https://github.com/user-attachments/assets/d32a9c70-8aa6-495e-87cd-905219420169)
