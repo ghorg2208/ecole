@@ -97,18 +97,8 @@ Ce projet implémente une architecture microservices comprenant :
   docker network inspect app-network
   ```
 
-## Contribution
-1. Forkez le projet.
-2. Créez une branche pour vos modifications :
-   ```bash
-   git checkout -b feature/ma-modification
-   ```
-3. Faites un commit :
-   ```bash
-   git commit -m "Description de votre modification"
-   ```
-4. Poussez la branche :
-   ```bash
+![image](https://github.com/user-attachments/assets/d32a9c70-8aa6-495e-87cd-905219420169)
+
    git push origin feature/ma-modification
    ```
 5. Créez une Pull Request.
